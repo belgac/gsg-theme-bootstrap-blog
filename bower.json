@@ -1,0 +1,23 @@
+{
+  "name": "gsg-theme-bootstrap-blog",
+  "version": "1.0.0",
+  "homepage": "https://github.com/belgac/gsg-theme-bootstrap-blog",
+  "authors": [
+    "belgac <hans.scheuren@bizliner.com>"
+  ],
+  "description": "The gulp-stat-gen bootstrap theme blog inspired by http://getbootstrap.com/examples/blog/ by @mdo",
+  "keywords": [
+    "gsg-theme"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "gsg-theme-default": "~1.0.2"
+  }
+}
