@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    {% include "./partials/head.html" %}
+    {% include "./bower_components/gsg-theme-default/templates/partials/head.html" %}
   </head>
   <body>
     <header class="blog-masthead">
@@ -11,7 +11,7 @@
           {% block content %}{% endblock %}
     </main>
     <footer class="container-fluid">
-          {% include "./partials/footer.html" %}
+          {% include "./bower_components/gsg-theme-default/templates/partials/footer.html" %}
     </footer>
     {% include "./partials/scripts.html" ignore missing %}
   </body>

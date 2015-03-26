@@ -1,0 +1,10 @@
+{
+  "page":"bower_components/gsg-theme-default/templates/page.html",
+  "post":"bower_components/gsg-theme-default/templates/post.html",
+  "index":"index.html",
+  "archive":"journal.html",
+  "tag":"bower_components/gsg-theme-default/templates/tag.html",
+  "rss":"bower_components/gsg-theme-default/templates/atom.xml",
+  "partials":"/partials/*.html",
+  "default":"default.html"
+}
