@@ -17,7 +17,7 @@
     "test",
     "tests"
   ],
-  "devDependencies": {
-    "gsg-theme-default": "~1.0.2"
+  "dependencies": {
+    "gsg-theme-default": "~1.0.3"
   }
 }
