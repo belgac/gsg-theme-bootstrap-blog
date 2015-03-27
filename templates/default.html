@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    {% include "./templates/partials/head.html" %}
+    {% include "./partials/head.html" %}
   </head>
   <body>
     <header class="blog-masthead">
@@ -11,7 +11,7 @@
           {% block content %}{% endblock %}
     </main>
     <footer class="container-fluid">
-          {% include "./templates/partials/footer.html" %}
+          {% include "./partials/footer.html" %}
     </footer>
     {% include "./partials/scripts.html" ignore missing %}
   </body>
