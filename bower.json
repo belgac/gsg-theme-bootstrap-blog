@@ -10,6 +10,20 @@
     "gsg-theme"
   ],
   "license": "MIT",
+  "main": [
+    "assets/css/local.css",
+    "templates/default.html",
+    "templates/index.html",
+    "templates/journal.html",
+    "templates/partials/about-side.html",
+    "templates/partials/css.html",
+    "templates/partials/header.html",
+    "templates/partials/journal-pager.html",
+    "templates/partials/nav.html",
+    "templates/partials/post-summary.html",
+    "templates/partials/scripts.html",
+    "templates/partials/tag-list.html"
+  ],
   "ignore": [
     "**/.*",
     "node_modules",
@@ -19,5 +33,16 @@
   ],
   "dependencies": {
     "gsg-theme-default": "~1.0.3"
+  },
+  "overrides": {
+    "gsg-theme-default":{
+      "main": [
+        "templates/page.html",
+        "templates/post.html",
+        "templates/tag.html",
+        "templates/partials/footer.html",
+        "templates/partials/head.html"
+      ]
+    }
   }
 }
