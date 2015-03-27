@@ -10,6 +10,8 @@
   ],
   "license": "MIT",
   "main": [
+    "theme-config.json",
+    "bower.json",
     "assets/css/local.css",
     "templates/default.html",
     "templates/index.html",
